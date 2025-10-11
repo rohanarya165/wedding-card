@@ -14,6 +14,5 @@ qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
 
-img.save("qr_code.png")
 
 print("QR Code đã được tạo và lưu thành công!")
