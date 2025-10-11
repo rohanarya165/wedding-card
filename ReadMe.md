@@ -64,3 +64,4 @@ This project is a beautifully designed **Wedding Invitation Website** for the ce
 - **Libraries**: Swiper.js, Fancybox, AOS.js, and UIkit.
 - **Inspiration**: Special thanks to the creativity of **[nguyenminhdat](https://github.com/nguyenminhdat)**.
 # wedding-card
+# wedding-card
