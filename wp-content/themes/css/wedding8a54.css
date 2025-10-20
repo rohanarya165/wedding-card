@@ -39,6 +39,8 @@
 
     cursor: pointer;
 
+    z-index: 10000;
+
 }
 
 .blessingButton {
@@ -64,6 +66,9 @@
     align-items: center;
 
     cursor: pointer;
+
+    z-index: 10000;
+
 
 }
 

@@ -732,7 +732,7 @@ main {
     color: var(--text-white);
     padding: 20px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.237);
