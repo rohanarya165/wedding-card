@@ -831,14 +831,12 @@
         /> -->
 
         <picture>
-          <!-- Image for screens wider than 720px -->
-          <source srcset="/public/bannerTwo.JPG"  media="(min-width: 721px)">
-          <!-- Image for screens 720px or narrower -->
-          <source srcset="/public/banner.JPG" media="(max-width: 720px)">
-          <!-- Fallback image (if none of the above apply) -->
-          <img src="/public/banner.JPG" alt="Responsive image example"
-          class="banner-bg img_bg banner_top lazyload"
-          style="background-position: center center">
+          <source srcset="/bannerTwo.JPG" media="(min-width: 721px)">
+          <source srcset="/banner.JPG" media="(max-width: 720px)">
+          <img src="/banner.JPG" alt="Responsive image example"
+               class="banner-bg img_bg banner_top lazyload"
+               style="background-position: center center">
+          
         </picture>
 
         <div class="container">
