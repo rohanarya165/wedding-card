@@ -830,14 +830,20 @@
           style="background-position: center center"
         /> -->
 
-        <picture>
-          <source srcset="/bannerTwo.JPG" media="(min-width: 721px)">
-          <source srcset="/banner.JPG" media="(max-width: 720px)">
-          <img src="/banner.JPG" alt="Responsive image example"
-               class="banner-bg img_bg banner_top lazyload"
-               style="background-position: center center">
-          
-        </picture>
+     <!-- include lazysizes script in your HTML (example CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
+<picture>
+  <source data-srcset="/bannerTwo.JPG" media="(min-width: 721px)">
+  <source data-srcset="/banner.JPG" media="(max-width: 720px)">
+  <img
+    data-src="/banner.JPG"
+    alt="Banner"
+    class="banner-bg img_bg banner_top lazyload"
+    style="background-position:center center;"
+  />
+</picture>
+
 
         <div class="container">
           <div class="banner-container">
