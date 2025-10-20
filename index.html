@@ -841,6 +841,10 @@
           />
         </picture>
 
+        <!-- Place this right after your <picture> -->
+<div class="particles-wrapper"></div>
+
+
         <div class="container">
           <div class="banner-container">
             <div class="banner-title">
@@ -1791,10 +1795,11 @@
       .particle {
         position: fixed;
         top: -50px;
-        font-size: 28px;
+        font-size: 10px;
         pointer-events: none;
         animation: fall linear forwards;
         color: white;
+        z-index: 100000;
       }
       @keyframes fall {
         0% { transform: translateY(-50px) translateX(0) rotate(0deg); opacity: 1; }
