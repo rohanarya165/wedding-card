@@ -269,17 +269,7 @@ body {
     border-radius: 999px;
     padding: 10px 20px;
     cursor: pointer;
-}
-
-.particles-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none; /* so clicks pass through */
-    z-index: 10; /* make sure it’s above the banner image but below button/tooltip */
-  }  
+} 
 
 .btn svg {
     fill: initial;
